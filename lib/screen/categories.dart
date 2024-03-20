@@ -21,7 +21,7 @@ late AnimationController _animationController;
     _animationController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 300),
-      lowerBound: 0,
+      lowerBound: 0.2,
       upperBound: 1,
       );
     _animationController.forward();
